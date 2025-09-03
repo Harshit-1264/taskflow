@@ -63,6 +63,7 @@ cd backend
 npm install
 
 Create a .env file inside backend/:
+
 PORT=4000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
@@ -73,11 +74,6 @@ npm start
 3️⃣ Setup Frontend
 cd ../frontend
 npm install
-
-
-Create a .env file inside frontend/:
-VITE_API_URL=http://localhost:4000/api
-
 
 Start the frontend:
 npm run dev
