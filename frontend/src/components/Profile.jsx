@@ -5,7 +5,7 @@ import { ChevronLeft, LogOut, Save, Shield, UserCircle, Lock } from "lucide-reac
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://taskflow-backend-a9c7.onrender.com";
 
 const Profile = ({ setCurrentUser, onLogout }) => {
   const [profile, setProfile] = useState({ name: "", email: "" });

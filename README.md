@@ -75,10 +75,6 @@ cd ../frontend
 npm install
 
 
-Create a .env file inside frontend/:
-VITE_API_URL=http://localhost:4000/api
-
-
 Start the frontend:
 npm run dev
 
