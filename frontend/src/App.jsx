@@ -1,5 +1,5 @@
-import React, { useEffect, useState, Navigate } from "react";
-import { Outlet, Route, Routes, useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Outlet, Route, Routes, useNavigate, Navigate } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import PendingPage from "./pages/PendingPage";
 import CompletePage from "./pages/CompletePage";
@@ -15,7 +15,7 @@ const App = () => {
   const navigate = useNavigate();
   const [currentUser, setCurrentUser] = useState(() => {
     const stored = localStorage.getItem('currentUser');
-    return stored ? JSON.parse(stored) : null
+    return stored ? JSON.parse(stored) : null;
   });
 
   useEffect(() => {
@@ -27,27 +27,27 @@ const App = () => {
     }
   }, [currentUser])
 
-  const handleAuthSubmit = data => {
+  const handleAuthSubmit = (data) => {
     const user = {
       email: data.email,
       name: data.name || 'User',
       avatar: `https://ui-avatars.com/api/?name=${encodeURIComponent(data.name || 'User')}&background=random`
-    }
-    setCurrentUser(user)
-    navigate('/', { replace: true })
-  }
+    };
+    setCurrentUser(user);
+    navigate('/', { replace: true });
+  };
 
   const handleLogout = () => {
     localStorage.removeItem('token');
     setCurrentUser(null);
-    navigate('/login', { replace : true }) 
-  }
+    navigate('/login', { replace : true });
+  };
 
   const ProtectedLayout = () => (
     <Layout user = {currentUser} onLogout = {handleLogout}>
       <Outlet />
     </Layout>
-  )
+  );
 
   return (
     <Routes>
@@ -72,11 +72,7 @@ const App = () => {
       <Route path='*' element={<Navigate to={currentUser ? '/' : '/login'} replace/>} />
 
     </Routes>
-  )
-}
+  );
+};
 
 export default App;
-
-
-
-
