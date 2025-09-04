@@ -94,6 +94,6 @@ Backend: http://localhost:4000
 This project is licensed under the MIT License.
 
 👨‍💻 Author
-Harshit Kumar Mishra
+- Harshit Kumar Mishra
 - GitHub: https://github.com/Harshit-1264
 - LinkedIn: https://www.linkedin.com/in/harshitkm-/
