@@ -4,9 +4,8 @@ TaskFlow is a full-stack MERN-based Task Management Application that helps users
 ---
 
 🚀 Live Demo
-Frontend: TaskFlow Frontend: https://taskflow-frontend-fbvt.onrender.com/
-
-Backend (API): TaskFlow Backend: https://taskflow-backend-a9c7.onrender.com
+- Frontend: TaskFlow Frontend: https://taskflow-frontend-fbvt.onrender.com/
+- Backend (API): TaskFlow Backend: https://taskflow-backend-a9c7.onrender.com
 
 ---
 
