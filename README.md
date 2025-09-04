@@ -95,5 +95,5 @@ This project is licensed under the MIT License.
 
 👨‍💻 Author
 Harshit Kumar Mishra
-GitHub: https://github.com/Harshit-1264
-LinkedIn: https://www.linkedin.com/in/harshitkm-/
+- GitHub: https://github.com/Harshit-1264
+- LinkedIn: https://www.linkedin.com/in/harshitkm-/
