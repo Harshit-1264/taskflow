@@ -1,15 +1,15 @@
-# 📝 TaskFlow - Task Management App
+# TaskFlow - Task Management App
 TaskFlow is a full-stack MERN-based Task Management Application that helps users create, update, and manage tasks efficiently. It comes with authentication, role-based access, and a modern responsive UI.
 
 ---
 
-🚀 Live Demo
+## Live Demo
 - Frontend: TaskFlow Frontend: https://taskflow-frontend-fbvt.onrender.com/
 - Backend (API): TaskFlow Backend: https://taskflow-backend-a9c7.onrender.com
 
 ---
 
-## 🚀 Features
+## Features
 - ✅ User Authentication (Login & Signup)  
 - ✅ Create, Edit, Delete Tasks  
 - ✅ Mark Tasks as Completed / In Progress / Pending  
@@ -20,7 +20,7 @@ TaskFlow is a full-stack MERN-based Task Management Application that helps users
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 **Frontend**
 - React (Vite)
 - React Router
@@ -38,7 +38,7 @@ TaskFlow is a full-stack MERN-based Task Management Application that helps users
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 TaskFlow/
 │── backend/     # Express + MongoDB API
 │ ├── models/
@@ -56,13 +56,13 @@ TaskFlow/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 git clone https://github.com/your-username/taskflow.git
 cd taskflow
 
-2️⃣ Setup Backend
+2️ Setup Backend
 cd backend
 npm install
 
